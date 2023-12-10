@@ -2,10 +2,6 @@
 	box-sizing: border-box;
 	border:10px;
 }
-nav img{
-	height: 45px;
-	width: 35px;
-}
 nav ul{
 	margin: 0;
 	padding: 0;
@@ -32,27 +28,6 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
 	transform: scaleX(1);
-}
-.footer{
-	overlow:auto;
-	text-decoration: none;
-	float:left;
-	padding:10px;
-	font-size:17px;
-	background-color:white;
-	color:black;
-	width:1280px;
-}
-.slide{
-	width: 1200px;
-	margin: auto;
-}
-.slide ul{
-	margin: 0;
-	padding: 0;
-}
-.footer2 a{
-	text-decoration: none;
 }
 body{
 	overflow-x: hidden;
